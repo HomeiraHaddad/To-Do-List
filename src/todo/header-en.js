@@ -90,11 +90,10 @@ const HeaderEn = () => {
       >
         <div className={styles["time-cnt"]}>
           <h1 className={`${styles["h1"]} ${styles['time']}`}>{`${time}`}</h1>
-          <p className={styles["p"]}>{`${weekDay}`}</p>
         </div>
         <div className={styles["date-cnt"]}>
-          <h1 className={styles["h1"]}>{`${day}${enOrdinalSuffix} ${month}`}</h1>
-          <p className={styles["p"]}>{`${year}`}</p>
+          <h1 className={styles["h1"]}>{`${month} ${day}${enOrdinalSuffix}, ${year}`}</h1>
+          <p className={styles["p"]}>{`${weekDay}`}</p>
         </div>
       </div>
     </div>
