@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./todo.module.css";
 import Header from "./header";
 import Content from "./content";
